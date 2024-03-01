@@ -1,0 +1,32 @@
+/* Reset CSS */
+
+/* Establecer márgenes y rellenos a 0 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluir el padding y border en el tamaño del elemento */
+}
+
+/* Establecer una altura y anchura predeterminada en todos los elementos */
+* {
+    height: auto;
+    width: auto;
+}
+
+/* Establecer estilos de texto predeterminados */
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: Arial, sans-serif; /* Definir una fuente de texto genérica */
+    font-weight: normal; /* Establecer el peso de la fuente a normal */
+    line-height: 1.5; /* Establecer la altura de línea a 1.5 */
+}
+
+/* Eliminar la decoración de enlaces */
+a {
+    text-decoration: none; /* Eliminar el subrayado predeterminado */
+    color: inherit; /* Heredar el color del texto del elemento padre */
+}
+
+/* Establecer el color de fondo predeterminado del body */
+body {
+    background-color: #fff; /* Definir un color de fondo blanco */
+}
